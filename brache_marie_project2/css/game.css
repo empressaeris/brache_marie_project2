@@ -1,0 +1,32 @@
+.background    { background: url(https://pre00.deviantart.net/cbf3/th/pre/i/2018/060/2/a/background_image_for_school_project_3_by_empressaeris-dc4ow4h.png);
+                  background-size: 2000px 2000px;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(lava.gif);
+                 background-size: 50px, 50px}
+.wall          { background: rgb(207, 207, 207);}
+.floater       { background: rgb(255, 255, 255);}
+
+.actor  { position: absolute;  }
+.coin   { background: url(crystaltoken.gif);
+          background-size: 12px 12px;}
+.staff  { background-image: url(magicitem.gif);
+          background-size: 28px 28px; }
+.player { background-image: url(Rydiaplayer.gif);
+          background-size: 50px 50px;
+          background-repeat: no-repeat;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
